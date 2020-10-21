@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94c667271578d79fb4509b61d3d2946d",
+    "revision": "ce297ef4af1d3b82908cd7a412b387e0",
     "url": "/bookmarkd-frontend/index.html"
   },
   {
-    "revision": "43a46d73e4710ae44589",
+    "revision": "f4dcfb71e5282fae9f3f",
     "url": "/bookmarkd-frontend/static/css/main.f5027eb3.chunk.css"
   },
   {
-    "revision": "d3e8be66fbae0b017383",
-    "url": "/bookmarkd-frontend/static/js/2.87ff0b0e.chunk.js"
+    "revision": "bb837298b491cbf5a1f3",
+    "url": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/bookmarkd-frontend/static/js/2.87ff0b0e.chunk.js.LICENSE.txt"
+    "url": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43a46d73e4710ae44589",
-    "url": "/bookmarkd-frontend/static/js/main.a479923d.chunk.js"
+    "revision": "f4dcfb71e5282fae9f3f",
+    "url": "/bookmarkd-frontend/static/js/main.f4e31524.chunk.js"
   },
   {
     "revision": "8149fb37ca56e8dbe931",
