@@ -35,7 +35,7 @@ $mainActive: rgb(131, 209, 170);
         padding: 20px;
         margin-top: 10px;
         border-radius: 10px;
-        width: 35%;
+        width: 40%;
         &--items {
             padding: 10px;
         }
@@ -112,7 +112,6 @@ a {
     box-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
     &:hover {
         font-weight: bold;
-        background-color: $mainActive;
     }
     &:active {
         background-color: $mainActive;
