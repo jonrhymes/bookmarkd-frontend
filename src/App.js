@@ -27,9 +27,14 @@ const App = (props) => {
 
   const handleDelete = async (id) => {
       const response = await fetch(`https://bookmarkd-api.herokuapp.com/bookmarks/${id}`, {
-          method: "DELETE"
+          method: "DELETE",
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Z-Key',
+              'Access-Control-Allow-Methods': 'GET, HEAD, POST, PUT, DELETE, OPTIONS'
+          }
       })
-      // Re-fetches the updated list of holidays
       getInfo();
   }
 
@@ -41,7 +46,10 @@ const App = (props) => {
       const response = await fetch(`https://bookmarkd-api.herokuapp.com/bookmarks/${id}`, {
           method: 'PUT',
           headers: {
-              'Content-Type': 'application/json',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Z-Key',
+              'Access-Control-Allow-Methods': 'GET, HEAD, POST, PUT, DELETE, OPTIONS'
           },
           body: JSON.stringify(newData)
       })
@@ -55,6 +63,9 @@ const App = (props) => {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*',
+              'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept, Z-Key',
+                'Access-Control-Allow-Methods': 'GET, HEAD, POST, PUT, DELETE, OPTIONS'
           },
           body: JSON.stringify(data)
       })
