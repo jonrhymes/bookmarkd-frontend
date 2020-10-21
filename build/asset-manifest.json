@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bookmarkd-frontend/static/css/main.04d8b5e1.chunk.css",
+    "main.css": "/bookmarkd-frontend/static/css/main.5489b319.chunk.css",
     "main.js": "/bookmarkd-frontend/static/js/main.f4e31524.chunk.js",
     "main.js.map": "/bookmarkd-frontend/static/js/main.f4e31524.chunk.js.map",
     "runtime-main.js": "/bookmarkd-frontend/static/js/runtime-main.c464b92e.js",
@@ -8,15 +8,15 @@
     "static/js/2.71d43604.chunk.js": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js",
     "static/js/2.71d43604.chunk.js.map": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js.map",
     "index.html": "/bookmarkd-frontend/index.html",
-    "precache-manifest.3988f000d8d170f4b3b862ebe4da34e0.js": "/bookmarkd-frontend/precache-manifest.3988f000d8d170f4b3b862ebe4da34e0.js",
+    "precache-manifest.3567158dbed97c39e7531e803ccb662c.js": "/bookmarkd-frontend/precache-manifest.3567158dbed97c39e7531e803ccb662c.js",
     "service-worker.js": "/bookmarkd-frontend/service-worker.js",
-    "static/css/main.04d8b5e1.chunk.css.map": "/bookmarkd-frontend/static/css/main.04d8b5e1.chunk.css.map",
+    "static/css/main.5489b319.chunk.css.map": "/bookmarkd-frontend/static/css/main.5489b319.chunk.css.map",
     "static/js/2.71d43604.chunk.js.LICENSE.txt": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c464b92e.js",
     "static/js/2.71d43604.chunk.js",
-    "static/css/main.04d8b5e1.chunk.css",
+    "static/css/main.5489b319.chunk.css",
     "static/js/main.f4e31524.chunk.js"
   ]
 }

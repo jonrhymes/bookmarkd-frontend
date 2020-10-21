@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6833ce305e5de86ccd2fcb4b8137fe1",
+    "revision": "0d34a0e88cdb937bf03c7183fcd9f8fc",
     "url": "/bookmarkd-frontend/index.html"
   },
   {
-    "revision": "f2ff8d0434d89cace3c8",
-    "url": "/bookmarkd-frontend/static/css/main.04d8b5e1.chunk.css"
+    "revision": "551c4d434b081c356319",
+    "url": "/bookmarkd-frontend/static/css/main.5489b319.chunk.css"
   },
   {
     "revision": "bb837298b491cbf5a1f3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bookmarkd-frontend/static/js/2.71d43604.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2ff8d0434d89cace3c8",
+    "revision": "551c4d434b081c356319",
     "url": "/bookmarkd-frontend/static/js/main.f4e31524.chunk.js"
   },
   {

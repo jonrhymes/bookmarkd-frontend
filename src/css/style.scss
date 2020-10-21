@@ -19,19 +19,22 @@ $mainActive: rgb(131, 209, 170);
         width: 100%;
         text-align: center;
         padding: 1rem;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         box-shadow: 1px 3px 6px rgba(0, 0, 0, .4);
         font-family: 'Playfair Display', serif;
         font-weight: 600;
     }
     &__create {
-        font-size: 15px;
+        font-size: 25px;
         font-family: 'Noto Sans HK', sans-serif;
         font-weight: 600;
+        color: black;
     }
     &__bookmarks {
         background-color: $mainColor;
         padding: 20px;
+        margin-top: 10px;
+        border-radius: 10px;
         width: 35%;
         &--items {
             padding: 10px;
@@ -58,6 +61,7 @@ $mainActive: rgb(131, 209, 170);
     border-radius: 15px;
     &:hover {
         box-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
+        font-weight: bold;
     }
     &:active {
         background-color: $mainActive;
@@ -101,13 +105,17 @@ a {
 }
 
 .edit-button {
-    background-color: $mainActive;
+    background-color: $mainColor;
     border: none;
     padding: .4rem 1rem;
     border-radius: 15px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
+    &:hover {
+        font-weight: bold;
+        background-color: $mainActive;
+    }
     &:active {
-        background-color: $mainColor;
+        background-color: $mainActive;
     }
     &:focus {
         outline: none;
@@ -116,7 +124,7 @@ a {
 
 .form > input {
     font-size: 16px;
-    margin: 10px 5px 30px;
+    margin: 10px 5px;
     padding: 4px 0 4px 4px;
     border: 2px #a2ffd1 solid;
     border-radius: 15px;
